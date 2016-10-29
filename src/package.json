@@ -1,0 +1,27 @@
+{
+  "name": "debug-vsc-node",
+  "version": "0.1.0",
+  "description": "Sample project to show debugging in VSC inside docker container",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/urodoz/depurar-javascript-con-vsc-en-docker.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Albert Lacarta <urodoz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urodoz/depurar-javascript-con-vsc-en-docker/issues"
+  },
+  "homepage": "https://github.com/urodoz/depurar-javascript-con-vsc-en-docker#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.15.2",
+    "uuid5": "^1.0.2"
+  }
+}

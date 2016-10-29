@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Iniciar",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/server.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}/src",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": false,
+            "outFiles": []
+        },
+        {
+            "name": "Asociar",
+            "type": "node",
+            "request": "attach",
+            "port": 5858,
+            "address": "172.17.0.1",
+            "restart": false,
+            "sourceMaps": false,
+            "outFiles": [],
+            "localRoot": "${workspaceRoot}/src",
+            "remoteRoot": "/opt/code"
+        }
+    ]
+}
